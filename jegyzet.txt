@@ -1,0 +1,12 @@
+App.js
+
+- useLocalStorage hook használata
+const [theme, setTheme] = useLocalStorage("theme", "light");
+
+- ebben az esetben is useLocalStorage("theme", "light") a theme a kulcs és a light az érték. zzel beállítottuk a state kezdőértékét, loght a kezdőállapot
+
+
+
+toggleTheme függvény
+
+- ezzel a függvénnyel változtatjuk, hogy light v dark legyen a téma és a setTheme-vel beállítjuk a theme változó state-hez
